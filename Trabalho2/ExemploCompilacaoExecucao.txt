@@ -1,0 +1,4 @@
+ mpicc mestre_escravo.c -o mestre_escravo
+
+mpirun -np 4 mestre_escravo summer.ppm summer-out.ppm
+
